@@ -32,8 +32,8 @@ To view the interactive visualizations, filtering capabilities, and dynamic metr
     Query: [1_customer_segmentation](/Scripts/1_customer_segmentation.sql)
 
 **Visualization**
-![Cohort Analysis](/images/revenue_share_by_tier.png)
-![Cohort Analysis](/images/avg_ltv_customer_total.png)
+![Revenue Share by Tier](images/revenue_share_by_tier.png)
+![Average LTV and Total Customers](images/avg_ltv_customer_total.png)
 
 **Key Findings**
 - **The Pareto Concentration (Donut Chart):** A minority high-value bracket drives roughly **65.6%** of total net revenue (~135.4M out of 206M total), proving a heavy reliance on top-tier buyers.
