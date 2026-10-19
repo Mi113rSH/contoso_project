@@ -29,11 +29,12 @@ To view the interactive visualizations, filtering capabilities, and dynamic metr
 - Defined the global percentiles dynamically crossing information from different tables such as Sales and Customer to establish objective threshold boundaries.
 - Categorized the customers into three distinct tiers (Low-Value, Mid-Value, High-Value) based on their comparative yield.
 
-    Query: [1_customer_segmentation](/Scripts/1_customer_segmentation.sql)
+    Query: [1_customer_segmentation](Scripts/1_customer_segmentation.sql)
 
 **Visualization**
-![Revenue Share by Tier](images/revenue_share_by_tier.png)
-![Average LTV and Total Customers](images/avg_ltv_customer_total.png)
+* ![Revenue Share by Tier](images/revenue_share_by_tier.png)
+
+* ![Average LTV and Total Customers](images/avg_ltv_customer_total.png)
 
 **Key Findings**
 - **The Pareto Concentration (Donut Chart):** A minority high-value bracket drives roughly **65.6%** of total net revenue (~135.4M out of 206M total), proving a heavy reliance on top-tier buyers.
@@ -50,11 +51,11 @@ To view the interactive visualizations, filtering capabilities, and dynamic metr
 - Cohorts were grouped by year of first purchase.
 - Analyzed customer retention at a cohort level.
 
-    Query: [2_cohort_analysis.sql](/Scripts/2_cohort_analysis.sql)
+    Query: [2_cohort_analysis.sql](Scripts/2_cohort_analysis.sql)
 
 **Visualization**
 
-![Cohort Analysis](/images/cohort_analysis.png)
+![Cohort Analysis](images/cohort_analysis.png)
 
 **Key Findings**
 - **The Inverse Relationship (Value vs. Volume):** In the early high-value period (2015–2017), individual customer revenue hovered around 5.5K while total customers remained lower at 2.5K–4K. Conversely, during mass-scale pushes (2018–2019 and 2022), customer volume surged—peaking near 9K in 2022—while individual customer revenue noticeably declined.
@@ -70,10 +71,10 @@ To view the interactive visualizations, filtering capabilities, and dynamic metr
 - Identified customers at risk of churning.
 - Calculated customer-specific metrics.
 
-    Query: [3_retention_analysis.sql](/Scripts/3_retention_analysis.sql)
+    Query: [3_retention_analysis.sql](Scripts/3_retention_analysis.sql)
 
 **Visualization**
-    ![Active VS Churned Customers by Cohort Year](/images/activevschurned.png)
+    ![Active VS Churned Customers by Cohort Year](images/activevschurned.png)
 
 **Key Findings**
 - **Systemic, Uniform Churn**: Across all nine observed cohorts (2015–2023), mature customer churn consistently dominates at approximately 90%.
